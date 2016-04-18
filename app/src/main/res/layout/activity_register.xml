@@ -1,0 +1,127 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/download"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Date of Birth"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="match_parent"
+        android:hint="mm/dd/yyyy"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gender"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup android:layout_height="wrap_content" android:id="@+id/gender_group"
+        android:layout_width="match_parent"
+        >
+        <RadioButton android:text="Male"
+            android:layout_width="wrap_content"
+            android:id="@+id/radio0"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:buttonTint="@color/yellow"></RadioButton>
+        <RadioButton android:text="Female"
+            android:layout_width="wrap_content" android:id="@+id/radio1"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/yellow"></RadioButton>
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="jon@gmail.com"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="Register"
+        android:textColor="#FFFF00"
+        android:background="@drawable/dwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/download"
+    >
+
+    <Spinner
+        android:id="@+id/spinsur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/tvhobbit"
+        android:layout_width="wrap_content"
+        android:text="The Hobiit"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ethobbit"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvinferno"
+        android:layout_width="wrap_content"
+        android:text="Inferno"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etinferno"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvsymbol"
+        android:layout_width="wrap_content"
+        android:text="The Lost Symbol"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etsymbol"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvhardy"
+        android:layout_width="wrap_content"
+        android:text="Thee Hardy Boys"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ethardy"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvgf"
+        android:layout_width="wrap_content"
+        android:text="ThGod Father"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etgf"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvshure"
+        android:layout_width="wrap_content"
+        android:text="Shure"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etshure"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvgrado"
+        android:layout_width="wrap_content"
+        android:text="Grado"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etgrado"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvklipsch"
+        android:layout_width="wrap_content"
+        android:text="Klipsch"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etklipsch"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvbose"
+        android:layout_width="wrap_content"
+        android:text="Bose"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etbose"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+    <TextView
+        android:id="@+id/tvsony"
+        android:layout_width="wrap_content"
+        android:text="SONY"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etsony"
+        android:layout_width="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_line"/>
+
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:text="Submit"
+        android:textColor="#FFFF00"
+        android:background="@drawable/dwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>

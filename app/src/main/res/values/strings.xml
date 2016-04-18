@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project239</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_all_messages">AllMessages</string>
+    <string name="title_activity_test">TestAct</string>
+    <string name="title_activity_survey">Survey</string>
+    <string name="title_activity_single_message">SingleMessage</string>
+</resources>

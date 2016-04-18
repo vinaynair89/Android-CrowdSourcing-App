@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vinay.app" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.Notification"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.AllMessages"
+            android:label="@string/title_activity_all_messages" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.TestAct"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.Survey"
+            android:label="@string/title_activity_survey" >
+        </activity>
+        <activity
+            android:name="com.example.vinay.project239.SingleMessage"
+            android:label="@string/title_activity_single_message" >
+        </activity>
+    </application>
+
+</manifest>

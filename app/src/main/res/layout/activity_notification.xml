@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/download"
+    >
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/download"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Title"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:hint="22 char limit"
+        android:background="@drawable/border_line"
+        android:maxLength="22"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Message"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_line"
+        android:gravity="left|top"
+        android:layout_height="180dp"
+        android:hint="140 char limit"
+        android:maxLength="140"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Department"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:id="@+id/spindep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Radius"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <SeekBar
+        android:id="@+id/seek1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:progress="1"
+        android:secondaryProgress="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="From"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etFrom"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:hint="Touch to select from date"
+        android:background="@drawable/border_line"
+        android:maxLength="22"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="To"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etTo"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:hint="Touch to select to date"
+        android:background="@drawable/border_line"
+        android:maxLength="22"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bnPost"
+        android:text="Post"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:background="@drawable/dwn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
